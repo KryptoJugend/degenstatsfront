@@ -54,8 +54,7 @@ function App() {
           <Route path="/:ref_address" element={<Reference />} />
           <Route path="/conformation" element={<Conformation />} />
           <Route path="/dashboard" element={<Index />} />
-          {/* Other routes can be added here */}
-          {/* <Route path='/page-forgot-password' element={<ForgotPassword />} /> */}
+         
         </Routes>
       </Suspense>
     </div>
